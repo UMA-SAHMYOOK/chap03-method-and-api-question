@@ -2,6 +2,7 @@ package com.ohgiraffers.level01.basic;
 
 public class Application {
     public static void main(String[] args) {
+        /**/
         Calculator a = new Calculator();
         a.checkMthod();
         System.out.println("1부터 10까지의 합 : " + a.sum1to10());
