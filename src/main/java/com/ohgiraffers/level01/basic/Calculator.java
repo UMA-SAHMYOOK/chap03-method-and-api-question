@@ -19,11 +19,9 @@ public class Calculator {
     }
 
     public int sumTwoNumber(int a, int b) {
-        int sum = a + b;
-        return sum;
+        return a + b;
     }
     public int minusTwoNumber(int a, int b) {
-        int min = a - b;
-        return min;
+        return a - b;
     }
 }
