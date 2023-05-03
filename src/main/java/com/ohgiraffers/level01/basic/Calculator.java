@@ -15,7 +15,7 @@ public class Calculator {
 
     public void checkMaxNumber(int a,int b){
         if(a>b) System.out.println("두 수 중 큰 수는 " + a +"이다");
-        else System.out.println("두 수 중 큰 수는 " + a +"이다");
+        else System.out.println("두 수 중 큰 수는 " + b +"이다");
 
     }
 
