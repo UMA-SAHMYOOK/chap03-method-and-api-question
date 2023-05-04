@@ -22,10 +22,10 @@ public class RandomMaker {
         else return "보";
     }
 
-    static public void tossCoin() {
+    static public String tossCoin() {
         int random = (int) ((Math.random() * 2));
-        if( random == 0 ) System.out.println("앞면");
-        else System.out.println("뒷면");
+        if( random == 0 ) return "앞면";
+        else return "뒷면";
     }
 
 }

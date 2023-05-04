@@ -8,7 +8,7 @@ public class Application {
         String random1 = RandomMaker.randomUpperAlphabet(10);
         System.out.println(random1);
         System.out.println(RandomMaker.rockPaperScissors());
-        RandomMaker.tossCoin();
+        System.out.println(RandomMaker.tossCoin());
 
     }
 
